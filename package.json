@@ -1,0 +1,32 @@
+{
+  "name": "nmr",
+  "version": "1.0.0",
+  "description": "Delete/remove Node.js 'node_modules' on Windows using 'subst' to avoid 'The file name is to long' error",
+  "keywords": ["node_modules", "remove", "delete", "windows", "unlink"],
+  "homepage": "https://github.com/jaguard/nmr",
+  "author": {
+    "name": "Jaguard OSS",
+    "email": "oss@jaguard.com",
+    "url": "http://jaguard.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaguard/nmr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaguard/nmr/issues"
+  },
+  "bin": {
+    "nmr": "bin/nmr.cmd"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jaguard/nmr/raw/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "readmeFilename": "README.md"
+}
